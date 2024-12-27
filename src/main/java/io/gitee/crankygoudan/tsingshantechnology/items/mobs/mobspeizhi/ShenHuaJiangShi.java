@@ -36,7 +36,7 @@ public class ShenHuaJiangShi extends CustomBoss {
         public static short IDLE = 3;
     }
 
-    private static final NamespacedKey PATTERN_KEY = new NamespacedKey( TsingshanTechnology.getInstance(), "pattern");
+    private static final NamespacedKey PATTERN_KEY = new NamespacedKey(TsingshanTechnology.getInstance(), "pattern");
 
     public ShenHuaJiangShi() {
         super("SHEN_HUA_JIANG_SHI", ChatColor.RED + "神话僵尸", EntityType.ZOMBIE, 5500,
@@ -54,7 +54,7 @@ public class ShenHuaJiangShi extends CustomBoss {
 
         spawned.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(500);
         spawned.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(0.7);
-        spawned.addPotionEffect(new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 999999999, 3, false, false));
+        spawned.addPotionEffect(new PotionEffect(PotionEffectType.RESISTANCE, 999999999, 3, false, false));
         spawned.addPotionEffect(new PotionEffect(PotionEffectType.LEVITATION, 60, 3, false, false));
         spawned.addPotionEffect(new PotionEffect(PotionEffectType.ABSORPTION, 60, 10, false, false));
 
@@ -90,7 +90,7 @@ public class ShenHuaJiangShi extends CustomBoss {
             pattern = AttackPattern.CHARGE;
         } else if (pattern < 4) {
             pattern = AttackPattern.SHOOT;
-            mob.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 100));
+            mob.addPotionEffect(new PotionEffect(PotionEffectType.SLOWNESS, 100, 100));
         } else {
             pattern = AttackPattern.IDLE;
         }

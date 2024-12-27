@@ -1606,9 +1606,5 @@ public class QingShanXinPia {
         new UnplaceableBlock ( C.QS_CW, QS_CW4_195, QingShanRT.CXCCJ, new ItemStack[]{null, null, null, null, null, null, null, null, null}).register ( qs );
         new UnplaceableBlock ( C.QS_CW, QS_CW4_196, QingShanRT.CXCCJ, new ItemStack[]{null, null, null, null, null, null, null, null, null}).register ( qs );
         new UnplaceableBlock ( C.QS_CW, QS_CW4_197, QingShanRT.CXCCJ, new ItemStack[]{null, null, null, null, null, null, null, null, null}).register ( qs );
-
-
-
-
     }
 }
