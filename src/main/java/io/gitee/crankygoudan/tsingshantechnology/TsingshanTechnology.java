@@ -1,6 +1,5 @@
 package io.gitee.crankygoudan.tsingshantechnology;
 
-
 import io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageSaveFix;
 import io.gitee.crankygoudan.tsingshantechnology.items.mobs.CustomBoss;
 import io.gitee.crankygoudan.tsingshantechnology.items.mobs.ItemSetup;
@@ -14,10 +13,6 @@ import lombok.SneakyThrows;
 
 public final class TsingshanTechnology extends AbstractAddon {
     private static TsingshanTechnology instance;
-
-
-
-
 
     public TsingshanTechnology() {
         super ( "yitoudaidai", "TsingshanTechnology", "master","options.auto-update");
