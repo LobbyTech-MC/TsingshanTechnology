@@ -1,5 +1,15 @@
 package io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.jiqizhuce.qingshanjiqizhuce;
 
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_DAIDAI_DE_TIE_KUAI;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_DAIDAI_DE_ZUAN_SHI_KUAI;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_QING_SHAN_GAI_TAI_KUANG;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_QING_SHAN_NA_MI_DIAN;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_QING_SHAN_PAO_MO;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_SHI_MO_XI_QI_NING_JIAO;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.jiqizhuce.qingshanjiqizhuce.QingShanJiQi.QS_YUAN_SHI_BAO_FA_QI_I;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.jiqizhuce.qingshanjiqizhuce.QingShanJiQi.QS_YUAN_SHI_BAO_FA_QI_II;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.jiqizhuce.qingshanjiqizhuce.QingShanJiQi.QS_YUAN_SHI_ZHI_ZAO_JI;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 import javax.annotation.Nonnull;
@@ -8,7 +18,42 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
-import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.*;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_JINDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_JINFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_LVDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_LVFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_MEIDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_MEIFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_QIANDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_QIANFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_TIEDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_TIEFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_TONGDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_TONGFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_XIDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_XIFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_XINDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_XINFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_YINDIN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.ChuJiDinXiangFenMoBaoFaQi_YINFEN_V1;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_JINDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_JINFEN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_LVDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_LVFEN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_MEIDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_MEIFEN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_QIANDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_QIANFEN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_TIEDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_TIEFEN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_TONGDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_TONGFEN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_XIDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_XIFEN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_XINDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_XINFEN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_YINDIN_V2;
+import io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi.GaoJiDinXiangFenMoBaoFaQi_YINFEN_V2;
 import io.gitee.crankygoudan.tsingshantechnology.utils.C;
 import io.gitee.crankygoudan.tsingshantechnology.utils.T;
 import io.gitee.crankygoudan.tsingshantechnology.utils.Y;
@@ -18,9 +63,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.ElectricSmeltery;
-
-import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.*;
-import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.jiqizhuce.qingshanjiqizhuce.QingShanJiQi.*;
 
 public class QingShanJiQi_V2 {
     public static final SlimefunItemStack QS_SHEN_JI_YE_LIAN_CHANG = new SlimefunItemStack (

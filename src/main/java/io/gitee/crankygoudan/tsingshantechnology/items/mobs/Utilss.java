@@ -1,10 +1,10 @@
 package io.gitee.crankygoudan.tsingshantechnology.items.mobs;
 
+import javax.annotation.Nonnull;
+
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
 
 public class Utilss {
     public static void dealDamageBypassingArmor(LivingEntity entity, double damage) {

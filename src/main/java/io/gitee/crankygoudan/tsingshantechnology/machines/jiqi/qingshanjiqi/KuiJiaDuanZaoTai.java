@@ -1,11 +1,12 @@
 package io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.gitee.crankygoudan.tsingshantechnology.machines.jiqiMoBan.GongZuoTaiMoBan;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
 
 public class KuiJiaDuanZaoTai extends GongZuoTaiMoBan {
 

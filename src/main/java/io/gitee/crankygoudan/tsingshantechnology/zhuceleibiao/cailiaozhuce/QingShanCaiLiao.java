@@ -1,5 +1,11 @@
 package io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce;
 
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_ER_JIE_YUAN_SU_JIE_JING;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_SAN_JIE_YUAN_SU_JIE_JING;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_SI_JIE_YUAN_SU_JIE_JING;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_WU_JIE_YUAN_SU_JIE_JING;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_YI_JIE_YUAN_SU_JIE_JING;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -13,11 +19,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
-
-import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.*;
 public class QingShanCaiLiao {
 
     public static final SlimefunItemStack QS_DAIDAI_DE_TIE_KUAI = new SlimefunItemStack ( "QS_DAIDAI_DE_TIE_KUAI", T.QS_DAIDAI_DE_TIE_KUAI, Y.colorPseudorandomString ("呆呆的铁块") + " " + Y.colorPseudorandomString(" "), Y.colorPseudorandomString("  "), Y.colorPseudorandomString("可用于合成高级"), Y.colorPseudorandomString("难得的材料") );

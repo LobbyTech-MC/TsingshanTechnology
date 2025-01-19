@@ -1,7 +1,6 @@
 package io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi.fenmobaofaqi;
 
-;
-import com.github.relativobr.recipe.AbstractItemRecipe;
+import org.bukkit.inventory.ItemStack;
 
 import io.gitee.crankygoudan.tsingshantechnology.machines.jiqiMoBan.ChuJiDinXiangBaoFaQiMoBan;
 import io.gitee.crankygoudan.tsingshantechnology.utils.Y;
@@ -9,11 +8,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-
-import org.bukkit.inventory.ItemStack;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ChuJiDinXiangFenMoBaoFaQi_JINFEN_V1 extends ChuJiDinXiangBaoFaQiMoBan {
     public ChuJiDinXiangFenMoBaoFaQi_JINFEN_V1(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {

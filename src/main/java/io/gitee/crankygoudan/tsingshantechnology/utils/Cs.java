@@ -1,15 +1,14 @@
 package io.gitee.crankygoudan.tsingshantechnology.utils;
 
+import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
+
 import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.NestedItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.SubItemGroup;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
-
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 
 public class Cs {
     public static NestedItemGroup QS_SHSW = new NestedItemGroup(

@@ -1,15 +1,15 @@
 package io.gitee.crankygoudan.tsingshantechnology.machines.jiqi.qingshanjiqi;
 
+import javax.annotation.Nonnull;
+
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.gitee.crankygoudan.tsingshantechnology.machines.jiqiMoBan.QianYingHeMoBan;
 import io.gitee.crankygoudan.tsingshantechnology.utils.Y;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
 
 public class KeKongHeJuBianZhaungZhi_I extends QianYingHeMoBan {
     public KeKongHeJuBianZhaungZhi_I(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {

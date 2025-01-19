@@ -7,7 +7,6 @@ import io.gitee.crankygoudan.tsingshantechnology.items.mobs.MobTicker;
 import io.gitee.crankygoudan.tsingshantechnology.utils.S;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
-
 import lombok.SneakyThrows;
 
 

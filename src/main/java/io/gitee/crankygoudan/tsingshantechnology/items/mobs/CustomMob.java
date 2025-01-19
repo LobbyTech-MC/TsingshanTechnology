@@ -7,8 +7,6 @@ import java.util.Objects;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
-
 import org.apache.commons.lang3.Validate;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -19,15 +17,20 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.*;
+import org.bukkit.event.entity.EntityCombustEvent;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.event.entity.EntityDamageEvent;
+import org.bukkit.event.entity.EntityDeathEvent;
+import org.bukkit.event.entity.EntitySpellCastEvent;
+import org.bukkit.event.entity.EntityTargetEvent;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
 
+import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-
 import lombok.Getter;
 
 public abstract class CustomMob {
@@ -54,7 +57,7 @@ public abstract class CustomMob {
     @Getter
     @Nonnull
     private final EntityType type;
-    private final int health;
+    private int health;
 
     public CustomMob(@Nonnull String id, @Nonnull String name, @Nonnull EntityType type, int health) {
         Validate.notNull(this.id = id);

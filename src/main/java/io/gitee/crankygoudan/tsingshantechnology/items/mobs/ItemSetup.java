@@ -1,13 +1,11 @@
 package io.gitee.crankygoudan.tsingshantechnology.items.mobs;
 
 
-import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
-
-import io.gitee.crankygoudan.tsingshantechnology.items.mobs.mobspeizhi.ShenHuaJiangShi;
-import io.gitee.crankygoudan.tsingshantechnology.utils.Cs;
-
 import org.bukkit.inventory.ItemStack;
 
+import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
+import io.gitee.crankygoudan.tsingshantechnology.items.mobs.mobspeizhi.ShenHuaJiangShi;
+import io.gitee.crankygoudan.tsingshantechnology.utils.Cs;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 
 public final class ItemSetup {

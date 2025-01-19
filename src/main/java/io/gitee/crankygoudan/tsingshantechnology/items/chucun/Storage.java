@@ -1,6 +1,19 @@
 package io.gitee.crankygoudan.tsingshantechnology.items.chucun;
 
 
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_DAIDAI_DE_ZUAN_SHI_KUAI;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_QING_SHAN_HE_JIN;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_QING_SHAN_JING_GANG;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_QING_SHAN_JIN_GE;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.QS_QING_SHAN_PAO_MO;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_ER_JIE_NO_SUO_JIN;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_ER_JIE_NO_SUO_TIE;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_ER_JIE_YUAN_SU_JIE_JING;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_SAN_JIE_YUAN_SU_JIE_JING;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_SI_JIE_YUAN_SU_JIE_JING;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_WU_JIE_YUAN_SU_JIE_JING;
+import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.QS_YI_JIE_YUAN_SU_JIE_JING;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -12,11 +25,7 @@ import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-
 import lombok.experimental.UtilityClass;
-
-import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanCaiLiao.*;
-import static io.gitee.crankygoudan.tsingshantechnology.zhuceleibiao.cailiaozhuce.QingShanYaSuoCaiLiao.*;
 
 @UtilityClass
 public final class Storage {

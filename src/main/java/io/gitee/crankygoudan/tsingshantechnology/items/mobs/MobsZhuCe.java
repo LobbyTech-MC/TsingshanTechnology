@@ -1,9 +1,9 @@
 package io.gitee.crankygoudan.tsingshantechnology.items.mobs;
 
+import org.bukkit.Material;
+
 import io.gitee.crankygoudan.tsingshantechnology.utils.Y;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-
-import org.bukkit.Material;
 
 public class MobsZhuCe {
 

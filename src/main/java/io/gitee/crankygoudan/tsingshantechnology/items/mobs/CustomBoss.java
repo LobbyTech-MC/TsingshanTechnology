@@ -1,6 +1,12 @@
 package io.gitee.crankygoudan.tsingshantechnology.items.mobs;
 
-import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import javax.annotation.Nonnull;
+import javax.annotation.OverridingMethodsMustInvokeSuper;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -17,13 +23,7 @@ import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 import org.bukkit.event.entity.EntityDeathEvent;
 
-import javax.annotation.Nonnull;
-import javax.annotation.OverridingMethodsMustInvokeSuper;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
 
 public abstract class CustomBoss extends CustomMob {
 

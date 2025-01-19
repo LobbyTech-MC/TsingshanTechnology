@@ -1,5 +1,13 @@
 package io.gitee.crankygoudan.tsingshantechnology.items.chucun;
 
+import static io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageUnit.DISPLAY_KEY;
+import static io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageUnit.DISPLAY_SLOT;
+import static io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageUnit.EMPTY_KEY;
+import static io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageUnit.INPUT_SLOT;
+import static io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageUnit.INTERACT_SLOT;
+import static io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageUnit.OUTPUT_SLOT;
+import static io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageUnit.STATUS_SLOT;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -23,15 +31,11 @@ import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag;
+import lombok.Setter;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
-
-import lombok.Setter;
-
 import net.guizhanss.guizhanlib.minecraft.helper.inventory.ItemStackHelper;
-
-import static io.gitee.crankygoudan.tsingshantechnology.items.chucun.StorageUnit.*;
 
 
 /**

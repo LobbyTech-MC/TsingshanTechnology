@@ -1,12 +1,14 @@
 package io.gitee.crankygoudan.tsingshantechnology.utils;
 
-import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
-import org.bukkit.Color;
-
-import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import javax.annotation.Nonnull;
+
+import org.bukkit.Color;
+
+import io.gitee.crankygoudan.tsingshantechnology.TsingshanTechnology;
 
 /**
  * @author DAIDAI
