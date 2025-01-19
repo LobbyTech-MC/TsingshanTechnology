@@ -171,7 +171,7 @@ public class ChaoJiFenSuiJi_V2 extends SuiKuangJiMoBan implements RecipeDisplayI
                     new SlimefunItemStack ( SlimefunItems.CARBON, 8),
                     new SlimefunItemStack ( SlimefunItems.CARBON, 8),
                 });//钻石 》 碳
-        registerRecipe(5, new ItemStack[] {new ItemStack(Material.WATER, 8)},
+        registerRecipe(5, new ItemStack[] {new ItemStack(Material.WHEAT, 8)},
             new ItemStack[] {
                 new SlimefunItemStack ( SlimefunItems.WHEAT_FLOUR, 8),
             });//小麦 》 小麦粉
