@@ -57,6 +57,10 @@
                     <minimizeJar>true</minimizeJar>
                     <relocations>
                         <relocation>
+                            <pattern>io.github.mooy1.infinitylib</pattern>
+                            <shadedPattern>io.gitee.crankygoudan.tsingshantechnology.infinitylib</shadedPattern>
+                        </relocation>
+                        <relocation>
                             <pattern>io.papermc.lib</pattern>
                             <shadedPattern>io.gitee.crankygoudan.tsingshantechnology.paperlib</shadedPattern>
                         </relocation>
