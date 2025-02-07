@@ -57,10 +57,6 @@
                     <minimizeJar>true</minimizeJar>
                     <relocations>
                         <relocation>
-                            <pattern>io.github.mooy1.infinitylib</pattern>
-                            <shadedPattern>io.gitee.crankygoudan.tsingshantechnology.infinitylib</shadedPattern>
-                        </relocation>
-                        <relocation>
                             <pattern>io.papermc.lib</pattern>
                             <shadedPattern>io.gitee.crankygoudan.tsingshantechnology.paperlib</shadedPattern>
                         </relocation>
@@ -136,7 +132,7 @@
         <dependency>
             <groupId>net.guizhanss</groupId>
             <artifactId>GuizhanLibPlugin</artifactId>
-            <version>2.1.0</version>
+            <version>2.2.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
